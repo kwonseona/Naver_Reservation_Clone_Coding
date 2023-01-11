@@ -1,0 +1,18 @@
+@import "./abstracts/mixin_common";
+
+@import "./abstracts/variables_color";
+@import "./abstracts/variables";
+
+@import "./base/reset";
+@import "./base/preset";
+
+@import "./components/oder_type";
+@import "./components/header_area";
+@import "./pages/oder_page";
+@import "./components/oder_info_area";
+@import "./components/recent_oder_area";
+@import "./components/menu-category-area";
+@import "./components/menu-list-area";
+@import "./components/menu_item";
+@import "./components/oder-box-area";
+@import "./components/go_to_top";
