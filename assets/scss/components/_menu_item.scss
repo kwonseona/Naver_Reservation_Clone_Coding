@@ -5,7 +5,7 @@
     margin: 0 -1*$m-padding;
 
     &:not(:last-child) {
-        border-bottom: 1px solid $booking-color-border144;        
+        border-bottom: 1px solid $booking-color-border144;
     }
 
     .menu-detail {
@@ -28,7 +28,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: rgba(0, 0, 0, 0.06);
+            background-color: rgba(0,0,0,0.06);
         }
 
         .menu-img {
@@ -44,11 +44,11 @@
     }
 
     .menu-price {
-        margin-top: 4px;
-        line-height: 1.4;
-        font-size: 15px;
-        font-weight: 700;
-        color: $point-color;
+       margin-top: 4px;
+       line-height: 1.4; 
+       font-size: 15px;
+       font-weight: 700;
+       color: $point-color;
     }
 
     .btn-cart {
@@ -61,12 +61,10 @@
         height: 40px;
         border-radius: 5px;
         border: 1px solid $booking-color-border150;
-
         .ico-cart {
             width: 20px;
             height: 20px;
         }
-
         .num {
             position: absolute;
             top: 3px;
@@ -77,16 +75,15 @@
             border-radius: 50%;
             background-color: $point-color;
             font-size: 12px;
-            text-align: center;
             font-weight: 700;
+            text-align: center;
             color: #fff;
         }
-
         &.disabled {
             font-size: 12px;
             border: 0;
-            color: #777;
             background-color: #eee;
+            color: #777;
             cursor: not-allowed;
             pointer-events: none;
         }
@@ -120,9 +117,9 @@
     font-size: 14px;
 
     .menu-grade {
+        flex-shrink: 0;
         font-weight: 700;
         color: $booking-color-text6;
-        flex-shrink: 0;
 
         .ico-star {
             margin-right: 2px;
@@ -142,6 +139,7 @@
     }
 
     .menu-number-of-order {
+        flex-shrink: 0;
         color: $booking-color-text5;
 
         em {

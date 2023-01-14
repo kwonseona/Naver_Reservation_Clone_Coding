@@ -22,7 +22,7 @@
             transform: rotate(180deg);
         }
 
-        .menu-list { 
+        .menu-list {
             display: none;
         }
     }
@@ -43,6 +43,12 @@
         font-weight: 700;
         color: $booking-color-text100;
         letter-spacing: -0.3px;
+    }
+
+    .btn-toggle {
+        display: flex;
+        margin: -16px;
+        padding: 16px;
     }
 
     .period {

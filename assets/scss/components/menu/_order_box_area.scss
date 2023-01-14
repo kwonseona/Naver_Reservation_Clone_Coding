@@ -1,13 +1,13 @@
-.oder-box-area {
+.order-box-area {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 1px solid $booking-color-border1;
+    height: $order-box-area-height;
+    border-top: 1px solid $booking-color-border161;
+    box-shadow: 0 0 6px 4px rgba(0,0,0,0.03);
     background-color: #fff;
-    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.03);
     z-index: 9100;
-    height: $oder-box-area-height;
 
     .common-inner {
         display: flex;
@@ -18,14 +18,14 @@
     .menu-name {
         font-size: 15px;
         color: $booking-color-text6;
-        @include ellipse;
+        @include ellipsis;
     }
 
     .menu-price {
         font-size: 18px;
         font-weight: 700;
         color: $point-color;
-        @include ellipse;
+        @include ellipsis;
     }
 
     .btn-order {
@@ -35,10 +35,10 @@
         width: 128px;
         height: 46px;
         border-radius: 5px;
-        background-image: linear-gradient(to right, #01d760, #0ad18c);
-        color: #fff;
+        background-image: linear-gradient(to right, #01d760, #0ad18e);
         font-weight: 700;
         letter-spacing: -0.3px;
+        color: #fff;
     }
 
     .icon {
@@ -57,11 +57,12 @@
         right: -4px;
         width: 16px;
         height: 16px;
+        line-height: 16px;
         border-radius: 50%;
         background-color: $point-color;
-        color: #fff;
         font-size: 12px;
         font-weight: 700;
         text-align: center;
+        color: #fff;
     }
 }
